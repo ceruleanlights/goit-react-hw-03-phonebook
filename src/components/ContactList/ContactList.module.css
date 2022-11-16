@@ -1,0 +1,24 @@
+.contactList {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  list-style-type: none;
+}
+.contactListItem {
+  min-width: 200px;
+  padding: 5px;
+  border: 1px solid white;
+  margin: 5px;
+  border-radius: 25px;
+  /* display: grid;s */
+}
+.contactListButton {
+  border-radius: 5px;
+  padding: 5px;
+}
+.contactListButton:hover {
+  cursor: pointer;
+  background-color: bisque;
+}
+.contactListItem p {
+  margin: 0;
+}

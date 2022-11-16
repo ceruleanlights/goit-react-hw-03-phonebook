@@ -1,0 +1,25 @@
+.contactForm {
+  display: grid;
+}
+.formInput {
+  margin-bottom: 20px;
+}
+.formLabel {
+  text-align: left;
+}
+.contactFormBorder {
+  border: 1px solid white;
+  padding: 25px 100px;
+  border-radius: 25px;
+}
+.contactFormButton {
+  padding: 5px;
+  border-radius: 5px;
+}
+.contactFormButton:hover {
+  cursor: pointer;
+}
+.contactFormButton:active {
+  background-color: black;
+  color: white;
+}
